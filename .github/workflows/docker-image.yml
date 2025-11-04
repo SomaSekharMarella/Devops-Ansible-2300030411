@@ -42,3 +42,4 @@ jobs:
           file: ./reactfrontend/frontend.Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/ansible-frontend:latest
+          
